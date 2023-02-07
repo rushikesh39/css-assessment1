@@ -1,0 +1,44 @@
+body{
+    background-color: ;
+
+}
+.nav{
+    height: 50px;
+    display: flex;
+    border: 2px solid black;
+    padding-left: 20%;
+    background-color: aquamarine;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+.parent{
+    border: 2px solid black;
+    display: flex;
+    
+}
+.child{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: justify;
+    font-style: italic;
+    background-color: aquamarine;
+}
+.child:hover{
+    background-color: red;
+    color: yellowgreen;
+    border-radius: 10px;
+}
+.child h2{
+    text-align: center;
+}
+.rights{
+    border: 2px solid black;
+    text-align: center;
+    background-color: aquamarine;
+}
